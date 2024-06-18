@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Engineering Workshop Experiments</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+    
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-image: url("https://th.bing.com/th?id=OIP.l999NDl1Oj7eKo-5fXDvBwHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+.ews{
+  border-right: solid 3px rgba(0,255,0,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+  color: rgba(255,255,255,.70);
+  padding: 10px 0;
+
+}
+
+/* Animation */
+.ews {
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 472px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,0,.75);}
+  to{border-right-color: transparent;}
+}
+
+
+
+
+      .developers
+      {
+        /* margin-right: 1000px; */
+        color: white;
+        font-weight: bolder;
+        font-size: 20px;
+      }
+      li{
+        padding: 10px;
+      }
+      header,
+      footer {
+        text-align: center;
+        /* background: rgba(0 0, 0, 0.6); */
+        color: #fff;
+        /* padding: 10px 0; */
+      }
+
+      main {
+        
+        width: 800px;
+        margin: 20px auto;
+        padding: 10px;
+        /* background: rgba(255, 255, 255, 0.8); */
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        /* background-color: red; */
+      }
+
+      section {
+        margin-bottom: 40px;
+      }
+
+      h2 {
+        color: #333;
+      }
+
+      ul,
+      ol {
+        margin: 10px 0 20px 20px;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 10px 0;
+      }
+
+      a {
+        color: #1a73e8;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      .fadeIn {
+        animation: fadeIn 1s ease-in-out;
+      }
+
+      /* Additional CSS styles for main page images */
+      .experiment-image {
+        width: 300px;
+        height: auto;
+        display: block;
+        margin: 20px auto; /* Adjust margin as needed */
+        border-radius: 10px; /* Add rounded corners */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow effecre\t */
+      }
+      .image{
+        background-image: url("https://wallpaperaccess.com/full/654967.png");
+        width: 800px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="ews">Engineering Workshop</h1>
+      
+    </header>
+    <main>
+      <div class="image">
+      <section>
+        <h2><a href="welding.html">Welding</a></h2>
+        <!-- Add image for Welding -->
+        <img class="experiment-image" src="http://gearheadworkspace.com/wp-content/uploads/Welding.jpeg" alt="Welding" />
+      </section>
+      <section>
+        <h2><a href="carpentry.html">Carpentry</a></h2>
+        <!-- Add image for Carpentry -->
+        <img class="experiment-image" src=" https://www.thesprucecrafts.com/thmb/8ikHz5JH-JzvJ3pNykMfIf9l0EQ=/3863x2578/filters:fill(auto,1)/carpentry-workshop-510332944-57cee3955f9b5829f405dd43.jpg" />
+      </section>
+      <section>
+        <h2><a href="fitting.html">Fitting</a></h2>
+        <!-- Add image for Fitting -->
+        <img class="experiment-image" src="https://www.carter-builders.com/wp-content/uploads/2014/05/shop-fitting.jpg" alt="Fitting" />
+      </section>
+      <section>
+        <h2><a href="tinsmithy.html">Tinsmithy</a></h2>
+        <!-- Add image for Tinsmithy -->
+        <img class="experiment-image" src="https://farm4.staticflickr.com/3067/2853453306_5875fbae5e_z.jpg?zz=1"  alt="Tinsmithy" />
+      </section>
+      <section>
+        <h2><a href="housewiring.html">House Wiring</a></h2>
+        <!-- Add image for House Wiring -->
+        <img
+          class="experiment-image"
+          src="https://i.ytimg.com/vi/OWcDevDRaxU/maxresdefault.jpg"
+          alt="House Wiring"
+        />
+      </section>
+    </div>
+    </main>
+    <footer>
+      <p>&copy; 2024 Engineering Workshop</p>
+      <div class="developers">
+        <h2 style="color: white;">Developed By:</h2>
+        <ul>
+        <li type="none">P.Mahanth Goutham-23241A05H8</li>
+        <li type="none">Anvesh-23241A05H7</li>
+        <li type="none">Sai Satwik-23241A05J0</li>
+        
+        </ul>
+       </div>
+    </footer>
+  </body>
+</html>
